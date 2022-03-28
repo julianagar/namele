@@ -13,5 +13,8 @@ export const WORDS = [
   'akira',
   'alana',
   'abdul',
-  'april'
+  'april',
+  'chloe',
+  'daven',
+  'aaron'
 ]
