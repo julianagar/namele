@@ -7,7 +7,23 @@ let nextLetter = 0;
 let rightGuessString = WORDS[Math.floor(Math.random() * WORDS.length)]
 console.log(rightGuessString)
 
-
+toastr.options = {
+    "closeButton": true,
+    "debug": false,
+    "newestOnTop": false,
+    "progressBar": true,
+    "positionClass": "toast-top-right",
+    "preventDuplicates": false,
+    "onclick": null,
+    "showDuration": "300",
+    "hideDuration": "20000",
+    "timeOut": "5000",
+    "extendedTimeOut": "1000",
+    "showEasing": "swing",
+    "hideEasing": "linear",
+    "showMethod": "fadeIn",
+    "hideMethod": "fadeOut"
+  }
 
 function initBoard() {
     let board = document.getElementById("game-board");
@@ -15,7 +31,7 @@ function initBoard() {
     for (let i = 0; i < NUMBER_OF_GUESSES; i++) {
         let row = document.createElement("div")
         row.className = "letter-row"
-        
+
         for (let j = 0; j < 5; j++) {
             let box = document.createElement("div")
             box.className = "letter-box"
@@ -167,10 +183,5 @@ document.addEventListener("keyup", (e) => {
         insertLetter(pressedKey)
     }
 })
-
-
-
-
-
 
 initBoard()
