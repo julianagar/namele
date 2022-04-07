@@ -63,3 +63,16 @@ img {
     cursor: pointer;
     text-transform: uppercase;
   }
+
+  .aligncenter {
+    float:center; 
+  }
+
+  .alignright {
+    float:right;
+    
+  }
+
+  .nav {
+
+  }
