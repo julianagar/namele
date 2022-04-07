@@ -1,3 +1,6 @@
+// if you're here cheating
+// good for you 
+
 export const WORDS = [
     'april',
     'mandy',
@@ -9,5 +12,21 @@ export const WORDS = [
     'annie',
     'james',
     'alana',
-    'kelly'
+    'kelly',
+    'kyhla',
+    'lucas',
+    'carlo',
+    'tiani',
+    'aiyan',
+    'kayla',
+    'eddie',
+    'jaden',
+    'danny',
+    'kaila',
+    'daven',
+    'cindy',
+    'harry',
+    'ethan',
+    'mason',
+    'reese',
 ]
